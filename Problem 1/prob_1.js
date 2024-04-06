@@ -22,11 +22,11 @@ button.addEventListener("click", async function fetchData(event) {
             var day = days[i];
             
             day.innerHTML = ` 
-            <h2>${date}</h2>
+            <h2> ${date}</h2>
             <img src="https:${icon}">
-            <p>Max Temp: ${max_temp} degrees F</p>
-            <p>Min Temp: ${min_temp} degrees F</p>
-            <p>Humidity: ${humidity}%</p>           
+            <p> Max Temp: ${max_temp} degrees F</p>
+            <p> Min Temp: ${min_temp} degrees F</p>
+            <p> Humidity: ${humidity}%</p>           
             `
         }
     }
