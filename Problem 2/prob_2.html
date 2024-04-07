@@ -8,6 +8,31 @@
 
   <body>
     <h1>Currency Converter</h1>
+
+    <form>
+        <p>From:</p>
+        <div class="dropdown">
+            <select name="from_currency" id="from_currency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="USD">EGP</option>
+            </select>
+        </div>
+
+        <p>To</p>
+        <div class="dropdown">
+            <select name="to_currency" id="to_currency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="USD">EGP</option>
+            </select>
+        </div>
+
+        <p>Amount:</p>
+        <input type="number" id="amount" placeholder="Amount"/>
+        <button type="submit">Convert!</button>
+    </form>
+
   </body>
   <script src="prob_2.js"></script>
 </html>
