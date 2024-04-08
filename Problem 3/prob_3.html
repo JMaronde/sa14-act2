@@ -9,11 +9,13 @@
   <body>
     <h1>Make a todo list!</h1>
 
-    <input type="text" id="new_item" placeholder="stuff"/>
-    <button type="submit">Add</button>
+    <form onsubmit="add_item(event)">
+        <input type="text" id="new_item" placeholder="New List Item"/>
+        <button type="submit">Add</button>
+    </form>
 
-    <ul id=todo_list>
-    </ul>
+    <ol id=todo_list>
+    </ol>
   </body>
   <script src="prob_3.js"></script>
 </html>
