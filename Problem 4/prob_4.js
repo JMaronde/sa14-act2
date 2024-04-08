@@ -46,6 +46,8 @@ const validateInputs = () => {
         setError(username, 'Username is required');
     } else if (usernameValue.length < 6) {
         setError(username, 'Username must have at least 6 characters!')
+    } else {
+        setSuccess(username);
     }
 
     if(emailValue === '') {
