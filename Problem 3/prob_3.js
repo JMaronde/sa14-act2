@@ -27,7 +27,7 @@ function add_item(event) {
             const index = Array.from(todo_list.children).indexOf(list_item); // gets the index of the current list item
             todo_list.removeChild(todo_list.children[index]); // removes the list item
             todo_list.removeChild(delete_button); // removes the delete button
-            todo_list.removeChild(edit_button); // removes the delete button
+            todo_list.removeChild(edit_button); // removes the edit button
         }
 
         todo_list.appendChild(list_item);  // adds the new list item to the ordered list
