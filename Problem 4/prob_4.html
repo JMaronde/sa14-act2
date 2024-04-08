@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Form Validation</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="prob_4.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <form id="form" action="/">
+        <h1>Registration</h1>
+        
+        <div class="input-control">
+          <label for="username">Username</label> 
+          <input id="username" name="username" type="text">
+          <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="text">
+          <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password">
+          <div class="error"></div>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+  <script src="prob_4.js"></script>
+</html>
